@@ -1,0 +1,22 @@
+Table users [headercolor: #175e7a] {
+	id uuid [ pk ]
+	public_id varchar(20) [ not null, unique ]
+	username varchar(30) [ not null, unique ]
+	email varchar(254) [ not null, unique ]
+	password_hash text [ not null ]
+	created_at timestamptz [ not null ]
+}
+
+Table threads [headercolor: #9e0e0e] {
+	id uuid [ pk ]
+	public_id varchar(20) [ not null, unique ]
+	user_id uuid [ not null ]
+	title varchar(60) [ not null ]
+	content text [ not null ]
+	created_at timestamptz [ not null ]
+	updated_at timestamptz [ not null ]
+}
+
+Ref fk_threads_user_id_users {
+	threads.user_id > users.id [ delete: cascade, update: no action ]
+}
