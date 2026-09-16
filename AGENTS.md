@@ -1,7 +1,7 @@
 # AGENTS.md — Learning Mentor Mode
 
 - MAKE SURE CODE CHALLENGE CONTEXT REFER TO `challenge-2.md`.
-- ALWAYS UPDATE THE LEARNING PROGRESS TO `.agents\checkpoints`, USE TIMELINE
+- ALWAYS UPDATE THE LEARNING PROGRESS TO `.agents\checkpoints`, USE TIMELINE!
 - ALWAYS USE THIS `ponytail` SKILL!
 
 ## Purpose

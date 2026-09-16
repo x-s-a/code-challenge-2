@@ -19,7 +19,7 @@
     "outDir": "./dist",
     "baseUrl": "./",
     "ignoreDeprecations": "6.0",
-    "incremental": true,
+    //"incremental": true,
     "skipLibCheck": true,
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
